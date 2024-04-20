@@ -336,6 +336,12 @@ a:focus {
   color: white;
   z-index: 1;
 }
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  z-index: 1000; /* Ensure it's above other content */
+}
 
 .carousel .carousel-caption {
   position: absolute;

@@ -7,6 +7,7 @@ import FaqsSection from '../components/FaqsSection'
 // import Carousel from '../components/Carousel'
 import SEO from '../components/SEO'
 import CarouselComponent from '../components/Carousel'
+import WhatsAppIcon from '../components/WhatsAppIcon'
 
 const HomeScreen = () => {
     return (
@@ -17,6 +18,7 @@ const HomeScreen = () => {
                 keywords="Barking, Newham, Dagenham, Erith, Dartford, Havering, Hornchurch, Walthamstow, Epping forest, Enfield, Croydon, Wembley, Harrow, Hounslow, Slough, Woking, Watford, Luton, Chelmsford"
             />
             {/* <Carousel /> */}
+            <WhatsAppIcon/>
             <CarouselComponent/>
             <MissionVisionGoal />
             <About />
