@@ -26,12 +26,12 @@ const FaqItem = ({ question, answer }) => {
 const FaqsSection = () => {
   const faqs = [
     {
-      question: 'What services does Flomatexs Construction Limited offer?',
-      answer: 'Flomatexs Construction Limited offers a comprehensive range of construction services including building construction, house renovation, interior design, architecture design, fixing & support, and painting.',
+      question: ' What is the process for electrical work in refurbished properties?',
+      answer: 'Our electrical work process involves a thorough assessment of the existing system, identifying outdated components, and replacing or upgrading them to ensure safety and compliance with local codes.',
     },
     {
-      question: 'How can I request a quote for my construction project?',
-      answer: 'Look for a "Contact" or "Get a Quote" page/link on our website.',
+      question: 'How does your company handle the replacement of kitchen fittings and bathroom works?',
+      answer: 'We specialize in overhauling kitchen fittings and bathroom works, selecting high-quality materials and finishes that match the propertys style. We ensure installations are done to the highest standards, focusing on durability, functionality, and energy efficiency.',
     },
   ];
 

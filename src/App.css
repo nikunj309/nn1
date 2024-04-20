@@ -308,6 +308,7 @@ a:focus {
   margin: 0 auto;
   text-align: center;
   overflow: hidden;
+  
 }
 
 .carousel .carousel-inner,
@@ -315,6 +316,7 @@ a:focus {
   position: relative;
   width: 100%;
   height: 100%;
+  
 }
 
 .carousel .carousel-item img {
@@ -330,8 +332,8 @@ a:focus {
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, .5);
-  
+  background: rgba(0, 0, 0, .3);
+  color: white;
   z-index: 1;
 }
 
@@ -350,7 +352,7 @@ a:focus {
 .carousel .carousel-caption p {
   color: #ffffff;
   font-size: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   letter-spacing: 1px;
 }
 
@@ -1986,7 +1988,7 @@ text-align: center;
 }
 
 .contact .col-md-6:last-child {
-  background: #fdbe33;
+  background: #776806;
 }
 
 .contact .contact-info {

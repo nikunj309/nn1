@@ -9,12 +9,6 @@ const Portfolio = () => {
       title: 'Karen project',
       category: 'second',
     },
-    {
-      id: 2,
-      image: main2,
-      title: 'Karen project',
-      category: 'second',
-    },
   ]);
 
   return (
@@ -23,17 +17,6 @@ const Portfolio = () => {
         <div className="section-header text-center">
           <p>Our Projects</p>
           <h2>Visit Our Projects</h2>
-        </div>
-        <div className="row">
-          <div className="col-12">
-            <ul id="portfolio-flters">
-              <li data-filter="*" className="filter-active">
-                All
-              </li>
-              <li data-filter=".first">Complete</li>
-              <li data-filter=".second">Running</li>
-            </ul>
-          </div>
         </div>
         <div className="row portfolio-container">
           {portfolioItems.map((item) => (
@@ -49,7 +32,7 @@ const Portfolio = () => {
                 </div>
                 <div className="portfolio-text">
                   <h3>{item.title}</h3>
-                  <a className="btn" href="show.html">
+                  <a className="btn" href="/show">
                     +
                   </a>
                 </div>

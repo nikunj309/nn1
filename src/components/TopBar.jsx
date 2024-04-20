@@ -1,5 +1,5 @@
 import React from 'react'
-
+import logo from '../../public/logo.png'
 const TopBar = () => {
     return (
         <>
@@ -9,7 +9,7 @@ const TopBar = () => {
                         <div className="col-lg-4 col-md-12">
                             <div className="logo">
                                 <a href="index.html">
-                                    <img src="../assets/img/flomatexs.png" alt="Logo" style={{ width: '200px', height: 'auto', margin: '10px', transform: 'scale(1.4)' }} />
+                                    <img src={logo} alt="Logo" style={{ width: '200px', height: 'auto', margin: '10px', transform: 'scale(1.4)' }} />
                                 </a>
                             </div>
                         </div>

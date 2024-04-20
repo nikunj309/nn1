@@ -1,11 +1,10 @@
+
+
 import React from 'react';
-import omosh from "../assets/img/omosh.jpg"
-import int from "../assets/img/int.jpg"
-import des from "../assets/img/des.jpg"
-import paint from "../assets/img/paint.jpg"
+import omosh from "../assets/img/omosh.jpg";
 
 const TeamMember = ({ imageSrc, name, role }) => (
-    <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+    <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style={{justifyContent:"center", alignItems:'center'}}>
         <div className="team-item">
             <div className="team-img">
                 <img src={imageSrc} alt="Team Image" />
@@ -28,23 +27,8 @@ const TeamSection = () => {
     const teamData = [
         {
             imageSrc: omosh,
-            name: 'Contractor Omondi',
+            name: 'VIPULKUMAR BHARUCHA',
             role: 'CEO & Founder',
-        },
-        {
-            imageSrc: int,
-            name: 'Dylan',
-            role: 'Civil Engineer',
-        },
-        {
-            imageSrc: des,
-            name: 'Mitchell',
-            role: 'Interior Designer',
-        },
-        {
-            imageSrc: paint,
-            name: 'Joshua',
-            role: 'Painter',
         },
     ];
 
@@ -53,9 +37,9 @@ const TeamSection = () => {
             <div className="container">
                 <div className="section-header text-center">
                     <p>Our Team</p>
-                    <h2>Meet Our Engineers</h2>
+                    <h2>Meet Our Founder</h2>
                 </div>
-                <div className="row">
+                <div className="row d-flex justify-content-center">
                     {teamData.map((member, index) => (
                         <TeamMember key={index} {...member} />
                     ))}

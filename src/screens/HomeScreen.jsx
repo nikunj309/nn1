@@ -4,9 +4,9 @@ import About from '../components/About'
 import ServiceSection from '../components/ServiceSection'
 import TeamSection from '../components/TeamSection'
 import FaqsSection from '../components/FaqsSection'
-import BlogSection from '../components/BlogSection'
-import Carousel from '../components/Carousel'
+// import Carousel from '../components/Carousel'
 import SEO from '../components/SEO'
+import CarouselComponent from '../components/Carousel'
 
 const HomeScreen = () => {
     return (
@@ -16,7 +16,8 @@ const HomeScreen = () => {
                 description="Welcome to our website. We serve Barking, Newham, Dagenham, and more."
                 keywords="Barking, Newham, Dagenham, Erith, Dartford, Havering, Hornchurch, Walthamstow, Epping forest, Enfield, Croydon, Wembley, Harrow, Hounslow, Slough, Woking, Watford, Luton, Chelmsford"
             />
-            <Carousel />
+            {/* <Carousel /> */}
+            <CarouselComponent/>
             <MissionVisionGoal />
             <About />
             <div>
@@ -115,7 +116,6 @@ const HomeScreen = () => {
             <TeamSection />
             <FaqsSection />
             {/* <TestimonialSection/> */}
-            <BlogSection />
             {/* <Footer /> */}
         </div>
     )

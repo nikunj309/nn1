@@ -49,7 +49,6 @@ const ContactScreen = () => {
                                         <h2>Phone</h2>
                                         <p>
                                             +44 7586479703</p>
-                                        {/* <p>+254 723 049800</p> */}
                                     </div>
                                 </div>
                                 <div className="contact-item">
