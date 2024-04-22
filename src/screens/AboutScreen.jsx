@@ -13,8 +13,8 @@ const AboutScreen = () => {
                             <h2>About Us</h2>
                         </div>
                         <div className="col-12">
-                            <a href="">Home</a>
-                            <a href="">About Us</a>
+                            <a href="/">Home</a>
+                            <a href="/about">About Us</a>
                         </div>
                     </div>
                 </div>
