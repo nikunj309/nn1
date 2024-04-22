@@ -85,12 +85,12 @@ const CarouselComponent = () => {
           alt="Carousel Image"
         />
         <Carousel.Caption>
-          <p className="animated fadeInRight" style={{color:"white"}}>We Are Professional</p>
+          <p className="animated fadeInRight" >We Are Professional</p>
           <h1 className="animated fadeInLeft">For Your Dream Projects</h1>
          
-          <Button variant="dark" href="https://api.whatsapp.com/send?phone=+44 7586479703">
+          {/* <Button variant="dark" href="https://api.whatsapp.com/send?phone=+44 7586479703">
             WhatsApp Chat!
-          </Button>
+          </Button> */}
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -103,9 +103,9 @@ const CarouselComponent = () => {
         <Carousel.Caption>
           <p className="animated fadeInRight">Professional Builder</p>
           <h1 className="animated fadeInLeft">We Build Your Home</h1>
-          <Button variant="dark" href="https://api.whatsapp.com/send?phone=+44 7586479703">
+          {/* <Button variant="dark" href="https://api.whatsapp.com/send?phone=+44 7586479703">
             WhatsApp Chat!
-          </Button>
+          </Button> */}
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -119,9 +119,9 @@ const CarouselComponent = () => {
         <Carousel.Caption>
           <p className="animated fadeInRight">We Are Trusted</p>
           <h1 className="animated fadeInLeft">For Your Dream Home</h1>
-          <Button variant="dark" href="https://api.whatsapp.com/send?phone=+44 7586479703">
+          {/* <Button variant="dark" href="https://api.whatsapp.com/send?phone=+44 7586479703">
             WhatsApp Chat!
-          </Button>
+          </Button> */}
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
