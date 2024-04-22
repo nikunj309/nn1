@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../public/logo.png'
+import logo from '../../public/logo2.png'
 const TopBar = () => {
     return (
         <>
@@ -9,7 +9,7 @@ const TopBar = () => {
                         <div className="col-lg-4 col-md-12">
                             <div className="logo">
                                 <a href="/">
-                                    <img src={logo} alt="Logo" style={{ width: '200px', height: 'auto', margin: '10px', transform: 'scale(1.4)' }} />
+                                    <img src={logo} alt="Logo" style={{ width: '150px', height: 'auto', margin: '10px', transform: 'scale(1.4)' }} />
                                 </a>
                             </div>
                         </div>
@@ -44,7 +44,7 @@ const TopBar = () => {
                                         </div>
                                         <div className="top-bar-text">
                                             <h3>Email Us</h3>
-                                            <a href="mailto:Flomatexsbuildingconstractor@gmail.com" target="_blank">
+                                            <a href="mailto:contact@vnhconstructionltd.co.uk" target="_blank">
                                                 <i className="fas fa-envelope"></i> Click Here
                                             </a>
 

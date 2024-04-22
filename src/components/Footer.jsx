@@ -14,10 +14,10 @@ const Footer = () => {
               <p><i className="fa fa-phone-alt"></i> +44 7586479703</p>
               <div className="footer-social">
                 <a href="" aria-label="Twitter"><i className="fab fa-twitter"></i></a>
-                <a href="" aria-label="Facebook"><i className="fab fa-facebook-f"></i></a>
+                <a href="https://www.facebook.com/people/VNH-Construction-Ltd-London-UK/61558786735813/" aria-label="Facebook"><i className="fab fa-facebook-f"></i></a>
                 <a href="" aria-label="LinkedIn"><i className="fab fa-linkedin-in"></i></a>
-                <a href="" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
-                <a href="" aria-label="YouTube"><i className="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com/vnh_construction_ltd_london_uk/?igsh=MTRhYmUyanFtbTRp&utm_source=qr" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
+                <a href="" aria-label="TikTok"><i className="fab fa-tiktok"></i></a>
               </div>
             </div>
           </div>

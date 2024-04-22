@@ -50,7 +50,7 @@ const ContactScreen = () => {
                                     <i className="flaticon-send-mail"></i>
                                     <div className="contact-text">
                                         <h2>Email</h2>
-                                        <p>Flomatexsbuildingconstractor@gmail.com</p>
+                                        <p>contact@vnhconstructionltd.co.uk</p>
                                     </div>
                                 </div>
                             </div>

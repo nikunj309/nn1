@@ -1,8 +1,10 @@
 import React from 'react'
-import a1 from "../assets/img/proj1/IMG-20240307-WA0125.jpg"
+// import a1 from "../assets/img/proj1/IMG-20240307-WA0125.jpg"
+import a4 from "../assets/img1/r1.jpeg"
+import a1 from "../assets/img1/r2.jpeg"
 import a2 from "../assets/img/proj1/IMG-20240307-WA0130.jpg"
 import a3 from "../assets/img/proj1/proj1.jpg"
-import a4 from "../assets/img/proj1/proj2.jpg"
+// import a4 from "../assets/img/proj1/proj2.jpg"
 import a5 from "../assets/img/proj1/IMG-20240307-WA0172.jpg"
 import a6 from "../assets/img/proj1/IMG-20240307-WA0176.jpg"
 
