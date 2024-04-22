@@ -5,10 +5,8 @@ import HomeScreen from './screens/HomeScreen.jsx'
 import AboutScreen from './screens/AboutScreen.jsx'
 import ContactScreen from './screens/ContactScreen.jsx'
 import ServicesScreen from './screens/ServicesScreen.jsx'
-import TeamScreen from './screens/TeamScreen.jsx'
 import ProjectScreen from './screens/ProjectScreen.jsx'
 import ShowProjectDetails from './screens/ShowProjectDetails.jsx';
-// import TestimonialSection from './components/TestimonialSection.jsx'
 
 function App() {
 

@@ -8,7 +8,7 @@ const TopBar = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-4 col-md-12">
                             <div className="logo">
-                                <a href="index.html">
+                                <a href="/">
                                     <img src={logo} alt="Logo" style={{ width: '200px', height: 'auto', margin: '10px', transform: 'scale(1.4)' }} />
                                 </a>
                             </div>
@@ -22,7 +22,7 @@ const TopBar = () => {
                                         </div>
                                         <div className="top-bar-text">
                                             <h3>Opening Hour</h3>
-                                            <p>Mon - Sat, 8:00 - 9:00</p>
+                                            <p>Mon - Sat, 9:00 - 6:00</p>
                                         </div>
                                     </div>
                                 </div>
@@ -34,7 +34,6 @@ const TopBar = () => {
                                         <div className="top-bar-text">
                                             <h3>Call Us</h3>
                                             <p><a href="tel: +44 7586479703"> +44 7586479703</a></p>
-                                            {/* <p><a href="tel:+254723049800">+254 723 049800</a></p> */}
                                         </div>
                                     </div>
                                 </div>

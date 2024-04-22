@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
-import main from '../assets/img/proj1/main.jpg'
-import main2 from '../assets/img/proj2/main2.jpg'
+import main from '../assets/img1/kitchen.png'
 const Portfolio = () => {
   const [portfolioItems] = useState([
     {
       id: 1,
       image: main,
-      title: 'Karen project',
+      title: 'Kitchen project',
       category: 'second',
     },
   ]);

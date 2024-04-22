@@ -1,7 +1,8 @@
 
 
 import React from 'react';
-import omosh from "../assets/img/omosh.jpg";
+import omosh from "../assets/img/rev4.jpg";
+import rev1 from "../assets/img/rev1.jpg";
 
 const TeamMember = ({ imageSrc, name, role }) => (
     <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style={{justifyContent:"center", alignItems:'center'}}>
@@ -29,6 +30,11 @@ const TeamSection = () => {
             imageSrc: omosh,
             name: 'VIPULKUMAR BHARUCHA',
             role: 'CEO & Founder',
+        },
+        {
+            imageSrc: rev1,
+            name: 'VIPULKUMAR BHARUCHA',
+            role: 'Director',
         },
     ];
 

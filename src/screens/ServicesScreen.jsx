@@ -1,5 +1,4 @@
 import React from 'react'
-import TopBar from '../components/TopBar'
 import ServiceSection from '../components/ServiceSection'
 import FaqsSection from '../components/FaqsSection'
 

@@ -1,7 +1,4 @@
 import React from 'react'
-// import TopBar from '../components/TopBar'
-// import NavBar from '../components/NavBar'
-
 const ContactScreen = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -9,8 +6,6 @@ const ContactScreen = () => {
     };
     return (
         <div className="wrapper">
-            {/* <TopBar />
-            <NavBar /> */}
             <div className="page-header">
                 <div className="container">
                     <div className="row">
