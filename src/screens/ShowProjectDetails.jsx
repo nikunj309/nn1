@@ -19,25 +19,25 @@ const ShowProjectDetails = () => {
                     <div class="images" style={{ justifyContent: "center", textAlign: "center" }}>
 
                         <h3>Before Work</h3>
-                        <a href="img/proj1/IMG-20240307-WA0125.jpg" data-fancybox="project1" data-caption="Image 1">
+                        <a href="/" data-fancybox="project1" data-caption="Image 1">
                             <img src={a1} alt="Image1 " style={{ width: "28%", height: "28%", margin: "8px" }} />
                         </a>
-                        <a href="img/proj1/IMG-20240307-WA0130.jpg" data-fancybox="project1" data-caption="Image 2">
+                        <a href="/" data-fancybox="project1" data-caption="Image 2">
                             <img src={a2} alt="Image 2" style={{ width: "28%", height: "28%", margin: "8px" }} />
                         </a>
-                        <a href="img/proj1/proj1.jpg" data-fancybox="project1" data-caption="Image 1">
+                        <a href="/" data-fancybox="project1" data-caption="Image 1">
                             <img src={a3} alt="Image1 " style={{ width: "28%", height: "28%", margin: "8px" }} />
                         </a>
 
                         <h3>After Work</h3>
-                        <a href="img/proj1/proj2.jpg" data-fancybox="project1" data-caption="Image 1">
+                        <a href="/" data-fancybox="project1" data-caption="Image 1">
                             <img src={a4} alt="Image1 " style={{ width: "28%", height: "28%", margin: "8px" }}/>
                         </a>
 
-                        <a href="img/proj1/IMG-20240307-WA0172.jpg" data-fancybox="project1" data-caption="Image 5">
+                        <a href="/" data-fancybox="project1" data-caption="Image 5">
                             <img src={a5} alt="Image 5" style={{ width: "28%", height: "28%", margin: "8px" }}/>
                         </a>
-                        <a href="img/proj1/IMG-20240307-WA0176.jpg" data-fancybox="project1" data-caption="Image 6">
+                        <a href="/" data-fancybox="project1" data-caption="Image 6">
                             <img src={a6} alt="Image 6" style={{ width: "28%", height: "28%", margin: "8px" }}/>
                         </a>
                     </div>
