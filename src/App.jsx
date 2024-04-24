@@ -7,6 +7,7 @@ import ContactScreen from './screens/ContactScreen.jsx'
 import ServicesScreen from './screens/ServicesScreen.jsx'
 import ProjectScreen from './screens/ProjectScreen.jsx'
 import ShowProjectDetails from './screens/ShowProjectDetails.jsx';
+import ShowProjectDetails2 from './screens/ShowProjectDetails2.jsx';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/services" element={<ServicesScreen />} />
           <Route path="/projects" element={<ProjectScreen />} />
           <Route path="/show" element={<ShowProjectDetails />} />
+          <Route path="/show2" element={<ShowProjectDetails2/>} />
 
         </Routes>
       </Router>

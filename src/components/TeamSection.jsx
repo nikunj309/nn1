@@ -2,7 +2,7 @@
 
 import React from 'react';
 import omosh from "../assets/img/rev4.jpg";
-import rev1 from "../assets/img/rev1.jpg";
+// import rev1 from "../assets/img/rev1.jpg";
 
 const TeamMember = ({ imageSrc, name, role }) => (
     <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style={{justifyContent:"center", alignItems:'center'}}>
@@ -14,12 +14,12 @@ const TeamMember = ({ imageSrc, name, role }) => (
                 <h2>{name}</h2>
                 <p>{role}</p>
             </div>
-            <div className="team-social">
+            {/* <div className="team-social">
                 <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
                 <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
                 <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
                 <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
-            </div>
+            </div> */}
         </div>
     </div>
 );
@@ -31,11 +31,11 @@ const TeamSection = () => {
             name: 'VIPULKUMAR BHARUCHA',
             role: 'CEO & Founder',
         },
-        {
-            imageSrc: rev1,
-            name: 'VIPULKUMAR BHARUCHA',
-            role: 'Director',
-        },
+        // {
+        //     imageSrc: rev1,
+        //     name: 'VIPULKUMAR BHARUCHA',
+        //     role: 'Director',
+        // },
     ];
 
     return (

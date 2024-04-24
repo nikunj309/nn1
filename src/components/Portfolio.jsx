@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import main from '../assets/img1/kitchen.png'
+import bathroom from '../assets/img1/bathroombg1.png'
 const Portfolio = () => {
   const [portfolioItems] = useState([
     {
@@ -7,6 +8,14 @@ const Portfolio = () => {
       image: main,
       title: 'Kitchen project',
       category: 'second',
+      path: '/show'
+    },
+    {
+      id: 2,
+      image: bathroom,
+      title: 'Bathroom project',
+      category: 'second',
+      path: '/show2'
     },
   ]);
 
@@ -31,7 +40,7 @@ const Portfolio = () => {
                 </div>
                 <div className="portfolio-text">
                   <h3>{item.title}</h3>
-                  <a className="btn" href="/show">
+                  <a className="btn" href={item.path}>
                     +
                   </a>
                 </div>

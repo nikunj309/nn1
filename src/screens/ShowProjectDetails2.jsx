@@ -1,11 +1,9 @@
 import React from 'react'
-// import a1 from "../assets/img/proj1/IMG-20240307-WA0125.jpg"
-import a4 from "../assets/img1/kitchen/kitchena1.jpeg"
-import a1 from "../assets/img1/kitchen/kichenb1.jpeg"
-import a2 from "../assets/img1/kitchen/kitchenb2.jpeg"
-import a3 from "../assets/img1/kitchen/kitchenb5.jpeg"
-// import a4 from "../assets/img/proj1/proj2.jpg"
-import a5 from "../assets/img1/kitchen/kitchena2.jpeg"
+import a1 from "../assets/img1/bathroom/bathb1.jpeg"
+import a2 from "../assets/img1/bathroom/bathb2.jpeg"
+import a3 from "../assets/img1/bathroom/bathb3.jpeg"
+import a4 from "../assets/img1/bathroom/batha1.jpeg"
+import a5 from "../assets/img1/bathroom/batha2.jpeg"
 
 const ShowProjectDetails = () => {
     return (
@@ -13,7 +11,7 @@ const ShowProjectDetails = () => {
 
             <div class="container">
                 <div class="project">
-                    <h2 style={{ justifyContent: "center", textAlign: "center" }}>Kitchen project</h2>
+                    <h2 style={{ justifyContent: "center", textAlign: "center" }}>Bathroom project</h2>
                     <div class="images" style={{ justifyContent: "center", textAlign: "center" }}>
 
                         <h3>Before Work</h3>
