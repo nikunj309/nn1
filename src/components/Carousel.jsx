@@ -13,14 +13,14 @@ const CarouselComponent = () => {
   return (
     <Carousel>
       <Carousel.Item>
-        <div className="carousel-image-container">
+        {/* <div className="carousel-image-container"> */}
           <img
             className="d-block w-100"
             src={im1}
             alt="Carousel Image"
           />
           <div className="carousel-image-overlay"></div>
-        </div>
+        {/* </div> */}
         {/* <img
           className="d-block w-100"
           src={im1}
@@ -33,14 +33,14 @@ const CarouselComponent = () => {
       </Carousel.Item>
 
       <Carousel.Item>
-        <div className="carousel-image-container">
+        {/* <div className="carousel-image-container"> */}
           <img
             className="d-block w-100"
             src={im2}
             alt="Carousel Image"
           />
           <div className="carousel-image-overlay"></div>
-        </div>
+        {/* </div> */}
         <Carousel.Caption>
           <p className="animated fadeInRight">Professional Builder</p>
           <h1 className="animated fadeInLeft">We Build Your Home</h1>
@@ -48,7 +48,7 @@ const CarouselComponent = () => {
       </Carousel.Item>
 
       <Carousel.Item>
-        <div className="carousel-image-container">
+        {/* <div className="carousel-image-container"> */}
           <img
             className="d-block w-100"
             src={im3}
@@ -56,7 +56,7 @@ const CarouselComponent = () => {
             style={{ background: "rgba(0, 0, 0, .3)" }}
           />
           <div className="carousel-image-overlay"></div>
-        </div>
+        {/* </div> */}
         <Carousel.Caption>
           <p className="animated fadeInRight">We Are Trusted</p>
           <h1 className="animated fadeInLeft">For Your Dream Home</h1>
@@ -64,7 +64,7 @@ const CarouselComponent = () => {
       </Carousel.Item>
 
       <Carousel.Item>
-        <div className="carousel-image-container">
+        {/* <div className="carousel-image-container"> */}
           <img
             className="d-block w-100"
             src={im4}
@@ -72,7 +72,7 @@ const CarouselComponent = () => {
             style={{ background: "rgba(0, 0, 0, .3)" }}
           />
           <div className="carousel-image-overlay"></div>
-        </div>
+        {/* </div> */}
         <Carousel.Caption>
           <p className="animated fadeInRight">Trusted Expertise</p>
           <h1 className="animated fadeInLeft">Building Excellence</h1>
