@@ -9,7 +9,7 @@ const TopBar = () => {
                         <div className="col-lg-4 col-md-12">
                             <div className="logo">
                                 <a href="/">
-                                    <img src={logo} alt="Logo" style={{ width: '100px', height: 'auto', transform: 'scale(1.4)'}} />
+                                    <img src={logo} alt="Logo" style={{ width: '90px', height: 'auto', transform: 'scale(1.4)'}} />
                                 </a>
                             </div>
                         </div>

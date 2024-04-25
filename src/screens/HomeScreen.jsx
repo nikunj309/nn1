@@ -2,7 +2,7 @@ import React from 'react'
 import MissionVisionGoal from '../components/MissionVisionGoal '
 import About from '../components/About'
 import ServiceSection from '../components/ServiceSection'
-import TeamSection from '../components/TeamSection'
+// import TeamSection from '../components/TeamSection'
 import FaqsSection from '../components/FaqsSection'
 import SEO from '../components/SEO'
 import CarouselComponent from '../components/Carousel'
@@ -61,7 +61,7 @@ const HomeScreen = () => {
 
             <DetailsTemplate/>
             <ServiceSection />
-            <TeamSection />
+            {/* <TeamSection /> */}
             <FaqsSection />
         </div>
     )

@@ -20,8 +20,8 @@ const DetailsTemplate = () => {
                                 <div className="fact-icon">
                                     <i className="flaticon-building"></i>
                                 </div>
-                                <div className="fact-text">
-                                    <h2 data-toggle="counter-up">50+</h2>
+                                <div className="fact-text" style={{ textAlign: "center", marginTop: "20px" }}>
+                                    <p data-toggle="counter-up">Countless</p>
                                     <p>Happy Clients</p>
                                 </div>
                             </div>
@@ -33,18 +33,18 @@ const DetailsTemplate = () => {
                                 <div className="fact-icon">
                                     <i className="flaticon-address"></i>
                                 </div>
-                                <div className="fact-text">
-                                    <h2 data-toggle="counter-up">50+</h2>
-                                    <p>Completed Projects</p>
+                                <div className="fact-text" style={{ textAlign: "center", marginTop: "20px" }}>
+                                    <p data-toggle="counter-up">Exemplary</p>
+                                    <p>Achievements</p>
                                 </div>
                             </div>
                             <div className="col-6">
                                 <div className="fact-icon">
                                     <i className="flaticon-crane"></i>
                                 </div>
-                                <div className="fact-text">
-                                    <h2 data-toggle="counter-up">5+</h2>
-                                    <p>Running Projects</p>
+                                <div className="fact-text" style={{ textAlign: "center", marginTop: "20px" }}>
+                                    <p data-toggle="counter-up">Ongoing </p>
+                                    <p>Innovations</p>
                                 </div>
                             </div>
                         </div>
