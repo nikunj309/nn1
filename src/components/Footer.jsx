@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-6 col-lg-3">
             <div className="footer-contact">
-              <h2>Office Contact</h2>
+              <h2>Registered address & Contact</h2>
               <p><i className="fa fa-map-marker-alt"></i>21 Eltisley road, Ilford, IG1 2EP</p>
               <p><i className="fa fa-phone-alt"></i> +44 7586479703</p>
               <div className="footer-social">
