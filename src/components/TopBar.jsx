@@ -22,7 +22,7 @@ const TopBar = () => {
                                         </div>
                                         <div className="top-bar-text">
                                             <h3>Opening Hour</h3>
-                                            <p>Mon - Sat, 9:00 - 6:00</p>
+                                            <p>Mon - Fri, 8:00 am - 5:00 pm</p>
                                         </div>
                                     </div>
                                 </div>
