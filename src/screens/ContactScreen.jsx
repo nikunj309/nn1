@@ -8,27 +8,32 @@ const ContactScreen = () => {
         message: '',
     });
 
+    const [isLoading, setIsLoading] = useState(false);
+    const [isSubmitted, setIsSubmitted] = useState(false);
 
     const handleSubmit = async (event) => {
         event.preventDefault();
+        setIsLoading(true)
 
-        // try {
-        //   const response = await fetch('', {
-        //     method: 'POST',
-        //     body: new FormData(event.target), 
-        //   });
+        try {
+            const response = await fetch('https://script.google.com/macros/s/AKfycbw7yOJGgFFB6pY6c8T-aTQZ_LUCArEOMi9kl-rkoJKm83USwh3KRyqVDN0V8LKxzkDtTQ/exec', {
+                method: 'POST',
+                body: new FormData(event.target),
+            });
 
-        //   if (!response.ok) {
-        //     throw new Error(`Network response was not ok: ${response.status}`);
-        //   }
+            if (!response.ok) {
+                throw new Error(`Network response was not ok: ${response.status}`);
+            }
 
-        //   console.log('Form submission successful!');
-        //   setFormData({ name: '', email: '', message: '', subject: '', ...formData });
-        //   alert('Thank you! Your form has been submitted successfully.');
-        // } catch (error) {
-        //   console.error('Form submission error:', error);
-        //   alert('An error occurred. Please try again later.');
-        // }
+            console.log('Form submission successful!');
+            setFormData({ name: '', email: '', message: '', subject: '', ...formData });
+            setIsLoading(false)
+            setIsSubmitted(true);
+            //   alert('Thank you! Your form has been submitted successfully.');
+        } catch (error) {
+            console.error('Form submission error:', error);
+            alert('An error occurred. Please try again later.');
+        }
     };
 
     const handleChange = (event) => {
@@ -145,8 +150,19 @@ const ContactScreen = () => {
                                     </div>
                                     <div>
                                         <button className="btn" type="submit" id="sendMessageButton">
-                                            Send Message
+                                            {isLoading && (
+                                                <p>
+                                                    Loading...
+                                                </p>
+                                            )}
+                                            {!isLoading && 'Send Message'}
                                         </button>
+                                        {isSubmitted && (
+                                            <div className="succesbtn">
+                                                <p>Success! Your form has been submitted.</p>
+                                                <p>Thank you for contacting us!</p>
+                                            </div>
+                                        )}
                                     </div>
                                 </form>
                             </div>
@@ -154,14 +170,14 @@ const ContactScreen = () => {
                     </div>
                 </div>
             </div>
-            <div style={{margin:"10px", marginBottom:"50px", backgroundColor:"#F1F3F9", padding:"20px"}}>
+            <div style={{ margin: "10px", marginBottom: "50px", backgroundColor: "#F1F3F9", padding: "20px" }}>
                 <h1 style={{ textAlign: "center", marginBottom: "30px" }}>VNH CONSTRUCTION LTD</h1>
                 <p style={{ textAlign: "center" }}>VNH CONSTRUCTION LTD Company number 15461683</p>
                 <p style={{ textAlign: "center" }}>21 Eltisley road Ilford IG1 2EP</p>
-                <p style={{ textAlign: "center", marginTop:"20px" }}>contact@vnhconstructionltd.co.uk</p>
+                <p style={{ textAlign: "center", marginTop: "20px" }}>contact@vnhconstructionltd.co.uk</p>
             </div>
-            <div style={{marginTop:"30px"}}>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.855075975983!2d0.06618267628811836!3d51.55255640740392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a65e6dc5ce57%3A0x66a40763c3315093!2s21%20Eltisley%20Rd%2C%20Ilford%20IG1%202EP%2C%20UK!5e0!3m2!1sen!2sin!4v1713957761384!5m2!1sen!2sin" style={{width:"100%", height:"400px"}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <div style={{ marginTop: "30px" }}>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.855075975983!2d0.06618267628811836!3d51.55255640740392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a65e6dc5ce57%3A0x66a40763c3315093!2s21%20Eltisley%20Rd%2C%20Ilford%20IG1%202EP%2C%20UK!5e0!3m2!1sen!2sin!4v1713957761384!5m2!1sen!2sin" style={{ width: "100%", height: "400px" }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     )
